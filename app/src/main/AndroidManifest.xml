@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lory.testapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestApp">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.here.android.maps.appid"
+            android:value="3BB1TRFCHg8KnzBw6yCs">
+        </meta-data>
+        <meta-data
+            android:name="com.here.android.maps.apptoken"
+            android:value="GUkhoasO18lh5ZUHMIaxOg">
+        </meta-data>
+        <meta-data
+            android:name="com.here.android.maps.license.key"
+            android:value="KouyJCfsWL7F5gsm17r6lb/qFW4cSY1rBtYFf97DVy8I+K04mSz2W9mjb9nDRVlLj7wn6upkC0x/4CVZPz39r6D45bFBWqOEgy4xtwsYtl6kz5sc11eWUg58VY5kiRZ/SkRIz0VDPpGE6rDogtzOTnR73vLrCtWo/FbFgahXdcYzM29pUj0zThxt1RakxmHvo7+RMQYXoeYNnhXJZ4LObtmqoNUpvOI4ygCWywPjX0MTzTPND2C/NDMv4YH2TLbSR8wPdYeMfoKb5gOnRW6WX2GJ+PD6hbh5ZxgADG1MKWzNEh6tTCO/L9KaalUHHA3sKOGuVyq/Jrfi8Sz95b0+LwY89DqiwPhBHHkjKf/39UCZqGJ7dfaKwgkCPwGNYE5HoE/ZR5SWrEAmgNZs5/v6/x/X2oysXBWhY5LksK0ccU23v/ytEfTE8plvTTghu3QvhGoLEhfM2iOK5tEG+tIFr389djYqggS3LTbU3H3d6TqTvfb0IrDsOPLhj3T0Q3lVtenK4W2JazVGinHvSFcMzRcwyz767eP451aadrV3KHUWdedyAXD6J4yf6zUuwZpMIAkKwKI5h1WYff/9zIbx9hVW6UTxXFVIbBFZLh4z/ifgR855TNUsOGj+rbNR2D4tOHvv6V7tt9HyckNubSIW+/cq8zX6VqWaBpvuJD3elCM=">
+        </meta-data>
+    </application>
+
+</manifest>
